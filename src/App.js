@@ -28,9 +28,9 @@ const App = ()=>{
         e.preventDefault();
         
         console.log(e.target.innerHTML);
-        console.log(!isNaN(Number(num1)));
+        
         if(!num1 || !num2){
-           console.log(num1.isNaN());
+          
             setSuccess("");
             if(!num1){
                 setError("Error! Num1 cannot be empty")
